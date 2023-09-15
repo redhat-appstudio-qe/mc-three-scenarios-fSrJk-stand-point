@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-nodevfile-nodocker-rhtap-three-component-scenarios-jwjv
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-kiiq-tenant/mc-three-scenarios/node-nodevfile-nodocker-rhtap-three-component-scenarios-jwjv@sha256:e5d3f766b83c1c23b6069dcf30de0f16e301485fd0543bfd59e28047eea51612
+        name: my-nodejs
+        resources: {}
+status: {}
